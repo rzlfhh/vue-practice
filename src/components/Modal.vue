@@ -8,7 +8,6 @@
         doler sit amet Lorem ipsum doler sit amet Lorem ipsum doler sit amet
         Lorem ipsum doler sit amet
       </p>
-      <!-- <button @click="$emit('close-modal')">close</button> -->
       <Button @click="$emit('close-modal')">close</Button>
     </div>
   </div>
@@ -27,7 +26,7 @@ import Button from "./Button.vue";
   right: 0;
   display: flex;
   justify-content: center;
-  background-color: #000000da;
+  background-color: #1b1b1bda;
   display: grid;
   place-content: center;
 }

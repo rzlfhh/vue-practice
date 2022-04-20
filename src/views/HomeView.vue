@@ -32,6 +32,6 @@ let showModal = ref(false);
   display: flex;
   gap: 1em;
   width: 100%;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 </style>
