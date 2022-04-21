@@ -7,10 +7,6 @@ import Modal from "../components/Modal.vue";
 import { ref } from "@vue/reactivity";
 
 let showModal = ref(false);
-
-// const openModal = () => {
-//   showModal.value = !showModal.value;
-// };
 </script>
 
 <template>

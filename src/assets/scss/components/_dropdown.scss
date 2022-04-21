@@ -1,0 +1,41 @@
+@use '../mixins'as m;
+
+.dropdown {
+    position: relative;
+}
+
+.btn__dropdown {
+    background: white;
+    @include m.border();
+    border-radius: 24px;
+    padding: 0.8em 2em;
+    cursor: pointer;
+    justify-content: end;
+}
+
+.dropdown-menu {
+    width: 250px;
+    @include m.border();
+    margin-top: 0.5em;
+    border-radius: 12px;
+    padding: 2em 1.8em;
+    @include m.fade-in();
+    z-index: 99;
+    position: absolute;
+    background: white;
+    left: 0;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 1.5rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
